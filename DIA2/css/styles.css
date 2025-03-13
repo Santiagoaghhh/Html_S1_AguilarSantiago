@@ -1,38 +1,103 @@
-*{
-    padding: 0px;
-    margin: 0px;
-    background-color: beige;
+#hoja{
+    background-color: rgb(189, 203, 218);
+    display: flex;
 }
 
 #fotoPerfil{
+    text-align: center;
+    width: 33%;
     margin: auto;
-    margin-left: 100px;
+    margin-left: 35%;
+    margin-right: 50%;
+    clip-path: circle(42%);
 }
 
 #infoPersonal{
-    margin: auto;
-    float: left;
+    width: 100%;
+    background-color: blue;
+    padding: 0px;
+}
+
+.c1{
+    background-color: blue;
+    text-align: center;
+    border: 5px solid black;
+    margin: 20px;
     width: 33%;
 }
 
 #certificados{
-    width: 300px;
-    height: 200px;
-    display: flex;
+    margin-top: 5%;
+    display: flex  ;
 }
 
 .cert{
-    width: 150px;
-    height: 150px;
+    width: 50%;
+    height: 50%;
+}
+
+#c2{
+    width: 33%;
+    background-color: blue;
+    text-align: center ;
+    margin-top: 1.5%;
+    border: 5px solid black;
 }
 
 #infoAcademica{
-    margin: auto;
-    margin-left: 200px;
-    margin: 0px;
-    float: right;
+    margin-top: 25%;
 }
 
-div{
-    border-style: solid;
+#c3{
+    width: 33%;
+    text-align: center;
+    margin-top: 1.5%;
+    margin-left: 1%;
+    background-color: blue;
+    border: 5px solid black;
+    background-image: url(/DIA2/img/139265002.png);
+
+}
+
+#ELUXE{
+    background-color: blue;
+    margin: auto;
+    margin-top: 30%;
+}
+
+pre{
+    text-align: center;
+}
+
+.referencias{
+    background-color: rgb(22, 22, 70)
+    padding: 0;
+}
+
+.fechas{
+
+}
+
+*{
+    padding: 0px;
+    font-family: oswald;
+    color: black;
+}
+
+a{
+    color: black;
+}
+
+h3, h4{
+    background-color: rgb(220, 241, 99);
+}   
+
+p{
+    padding: 0%;
+    color: white;
+}
+
+.fechas{
+    background-color: yellow;
+    color: black;
 }
