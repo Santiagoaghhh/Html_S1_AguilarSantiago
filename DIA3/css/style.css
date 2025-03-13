@@ -1,0 +1,64 @@
+p{
+    color: rgb(0, 0, 0);
+}
+
+tr{
+    display: flex;
+}
+td{
+    border: 5px solid black;
+    width: 33%;
+    text-align: center;
+}
+
+#fotoPerfil{
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    margin: 25% 25%;
+    clip-path: circle(42%);
+}
+
+#infoPersonal{
+    width: 33% ;
+    display: flex;
+}
+
+*{
+    margin: 0px;
+}
+
+#infoAcademica{
+    margin: 0px;
+}
+
+#casillafoto{
+    text-align: center;
+    height: 10%;
+    width: 33%;
+}
+
+.cert{
+    width: 200px;
+    height: 200px;
+}
+
+#ELUXE{
+    margin-top: 25%;
+}
+
+body{
+    background-color: rgb(186, 186, 218);
+}
+
+h2, h3{
+    background-color: rgb(150, 184, 211);
+}
+
+.fechas{
+    background-color: rgb(190, 211, 147);
+}
+
+button{
+    background-color: rgb(186, 186, 218);
+}
