@@ -1,6 +1,23 @@
 .center-items{
     text-align: center;
     align-items: center;
-    background-color: rgb(214, 214, 231);
 }
 
+body{
+    background: linear-gradient(to right, blue, pink)
+}
+
+div{
+    margin: 10% 15%;
+    width: 60%;
+    height: 60%;
+    background-color: rgb(214, 214, 231, 0.5);
+    padding: 0px;
+    border: 15px solid white;
+}
+
+p{
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 0px;
+}
