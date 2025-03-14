@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="center-items">
-    <forms action="" method="post" class="forms">
+    <forms action="" method="post" class="forms" maxength="50" >
         <h4>Nombres: </h4>
         <input type="text" placeholder="Example: Andrés Felipe">
         <br>
@@ -27,9 +27,17 @@
         <input type="email" placeholder="example@gmail.com">
         <br>
         <br>
+        <label name="poblacion"> Población
+            <select>
+                <option value="bucaramanga">Bucaramanga</option>
+                <option value="giron">Girón</option>
+                <option value="floridablanca">Floridablanca</option>
+                <option value="piedecuesta">Piedecuesta</option>
+            </select>
+        </label>
         <p><input type="checkbox" checked>Deseo recibir información sobre novedades y ofertas</p>
         <p><input type="checkbox" checked>Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos</p>
-
+        
         <input type="submit" placeholder="Enviar"> 
     </forms>
     </div>
