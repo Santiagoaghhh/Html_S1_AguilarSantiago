@@ -1,11 +1,93 @@
-#background{
-    background-color: black ;
-    background-image: url(../img/FondoTwitch@2x.png);
+#fondo {
+    width: 1920px;
+    height: 1080px;
     background-repeat: no-repeat;
+    background: black url('../img/FondoTwitch.png') 0% 0% no-repeat padding-box;
+    opacity: 0.99;
+    z-index: 10;
 }
 
-.dpr{
-    width: 100%;
-    background-color: aliceblue;
+#topbar {
+    display: flex;
+    background-color: none;
+}
+
+#search {
+    width: 90%;
+    height: 100%;
+    z-index: 10;
+}
+
+div.login {
+    width: 5%;
+    float: inline-end;
+    float: right;
     height: 100%;
 }
+
+button.login {
+    width: 100%;
+    border-radius: 100px;
+}
+
+#logo {
+    display: block;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.font-text {
+    color: white;
+    font-family: Amazon Ember;
+}
+
+#text1 {
+    text-align: center;
+}
+
+div.signup {
+    text-align: center;
+    height: 360px;
+}
+
+button.signup {
+    border-radius: 150px;
+    width: 400px;
+    height: 100px;
+}
+
+button.signup:hover {
+    background-color: gray;
+    font-size: large;
+}
+
+.container {
+    text-align: center;
+    background-color: rgb(5, 160, 209);
+    display: block;
+    width: 100%;
+    height: 35%;
+    margin: 1% 1.5%;
+    border-radius: 50px;
+}
+
+div.container2{
+    text-align: center;
+    background-color: rgb(5, 160, 209);
+    display: block;
+    width: 100%;
+    height: 45%;
+    margin: 1% 1.5%;
+    border-radius: 50px;
+}
+
+img.container{
+    width: 10%;
+    height: 15%;
+}
+
+
+.text2{
+    color: white;
+}
+
