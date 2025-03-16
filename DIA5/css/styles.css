@@ -1,3 +1,14 @@
+@font-face {
+    font-family: 'Amazon Embered';
+    src: url(/DIA5/fonts/AmazonEmber_Lt.ttf);
+    font-weight: normal;
+    font-size: 300px; 
+}
+
+body{
+    background-color: black;
+}
+
 #fondo {
     width: 1920px;
     height: 1080px;
@@ -26,7 +37,8 @@ div.login {
 }
 
 button.login {
-    width: 100%;
+    width: 205px;
+    height: 54px;
     border-radius: 100px;
 }
 
@@ -38,7 +50,7 @@ button.login {
 
 .font-text {
     color: white;
-    font-family: Amazon Ember;
+    font-family: 'Amazon Embered';
 }
 
 #text1 {
@@ -91,3 +103,40 @@ img.container{
     color: white;
 }
 
+div.devices{
+    text-align: center;
+}
+
+img.devices{
+    width: 271px;
+    height: 238px;
+    opacity: 0.5;
+}
+
+img.devices:hover{
+    opacity: 1;
+    border-radius: 1px;
+}
+
+#mac{
+    width: 564px;
+    height: 500px;
+    opacity: 0.5;
+}
+
+#mac:hover{
+    opacity: 1;
+}
+
+.row{
+    width: 30px;
+    height: ;
+}
+
+
+.etc{
+    font-family: 'Amazon Embered';
+    font-size: 20px;
+    color: white;
+    margin: 10px 20px;
+}
