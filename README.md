@@ -7,11 +7,12 @@ En este repositorio se organizaron las carpetas con las distintas actividades de
 | __DIA1__  | Introducción a html|
 | [DIA2](/DIA2/html) | Tarea CV con divs                          |
 | [DIA3](/DIA3/html) | Tarea CV con tablas |
-| [DIA4](/DIA4/html) |formularios |
+| [DIA4](/DIA4/html) | formularios |
+| [DIA5](/DIA5/html) | Amazon Prime|
 
-[DIA2](/DIA2/html)
-[DIA3](/DIA3/html)
-[DIA4](/DIA4/html)
 
-<a href="https://santiagoaghhh.github.io/Html_S1_AguilarSantiago/DIA2"> DIA2 </DIA2>
-<a href="https://santiagoaghhh.github.io/Html_S1_AguilarSantiago/DIA3"> DIA3 </DIA2>
+<a href="https://santiagoaghhh.github.io/Html_S1_AguilarSantiago/DIA2/html"> DIA2 </a>
+<a href="https://santiagoaghhh.github.io/Html_S1_AguilarSantiago/DIA3/html"> DIA3 </a>
+<a href="https://santiagoaghhh.github.io/Html_S1_AguilarSantiago/DIA4/html"> DIA4 </a>
+<a href="https://santiagoaghhh.github.io/Html_S1_AguilarSantiago/DIA3/html"> DIA5 </a>
+
