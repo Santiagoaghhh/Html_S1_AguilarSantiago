@@ -23,11 +23,23 @@ body{
     background-color: none;
 }
 
-#search {
+div.search {
     width: 90%;
     height: 100%;
     z-index: 10;
 }
+
+button.search{
+    background-color: rgb(266, 256, 256, 0);
+    border-color: rgb(266, 256, 256, 0);
+}
+
+button.search:hover{
+    background-color: rgb(266, 256, 256, 0.3);
+    border-color: rgb(266, 256, 256, 0);
+}
+
+
 
 div.login {
     width: 5%;
@@ -85,12 +97,13 @@ button.signup {
     width: 400px;
     height: 100px;
     font-family: 'Amazon Embered';
-    font-size: 40px;
+    font-size: 30px;
 }
 
 button.signup:hover {
     background-color: gray;
     font-size: large;
+    font-size: 35px;
 }
 
 .container {
@@ -111,6 +124,7 @@ button.signup:hover {
 
 .p-cont{
     font-size: 30px;
+    color: white;
 }
 
 
@@ -131,10 +145,20 @@ img.container{
     height: 15%;
 }
 
-
-
 div.devices{
     text-align: center;
+}
+
+h1.devices{
+    font-family: 'Amazon Embered';
+    color: white;
+    font-size: 120px;
+}
+
+p.devices{
+    font-family: 'Amazon Embered';
+    color: white;
+    font-size: 45px;
 }
 
 img.devices{
