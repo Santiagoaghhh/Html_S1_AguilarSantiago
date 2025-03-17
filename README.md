@@ -14,5 +14,5 @@ En este repositorio se organizaron las carpetas con las distintas actividades de
 <a href="https://santiagoaghhh.github.io/Html_S1_AguilarSantiago/DIA2/html"> DIA2 </a>
 <a href="https://santiagoaghhh.github.io/Html_S1_AguilarSantiago/DIA3/html"> DIA3 </a>
 <a href="https://santiagoaghhh.github.io/Html_S1_AguilarSantiago/DIA4/html"> DIA4 </a>
-<a href="https://santiagoaghhh.github.io/Html_S1_AguilarSantiago/DIA3/html"> DIA5 </a>
+<a href="https://santiagoaghhh.github.io/Html_S1_AguilarSantiago/DIA5/html"> DIA5 </a>
 
