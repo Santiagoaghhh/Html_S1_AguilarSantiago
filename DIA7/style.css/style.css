@@ -1,186 +1,87 @@
-body {
-    background-image: linear-gradient(white, black);
-    height: 1080px;
-    width: 1920px;
+@font-face {
+    font-family: 'Open Sans-Regular';
+    src: url('../fonts/OpenSans-Regular.ttf');
+}
+
+#fondo{
+    width: 1400px;
+    height: 800px;
+    /* Fondo Temporal */
+    background-color: rgb(77, 131, 131);
+    margin: 200px 100px;
+}
+
+.barra-lateral{
+    width: 110px;
+    height: 800px;
+    background-color: black;
+    float: right;
+    float: inline-end ;
+    z-index: 0;
+    top: 0;
+}
+
+#degradado{
+    background-image: linear-gradient(white, rgba(0, 0, 0, 0.291));
+    height: 1000px;
 
 }
 
-#fondo {
-    position: absolute;
-    top: 70px;
-    left: calc(50% - 830px);
-    width: 470px;
-    height: 400px;
+.text{
+    font-family: 'Open Sans-Regular ';
 }
 
-#recnegro {
-    position: absolute;
-    top: 136px;
-    left: calc(20% - 37px);
-    width: 470px;
-    height: 268px;
-}
-
-.blanco {
-    position: relative;
-}
-
-.blanco .recblanco {
-    position: absolute;
-}
-
-#loguito {
-    position: absolute;
-    top: 155px;
-    left: calc(9.3% - 35px);
-    width: 70px;
-    height: 17px;
-
-}
-
-#comptarjeta {
-    white-space: nowrap;
-    position: absolute;
-    font-size: 10px;
-    top: 145px;
-    left: 390px;
-    width: 2px;
-    height: 4px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: Arial;
-}
-
-.button {
-    font-family: 'Arial';
-    font-size: 10px;
-    color: rgb(0, 0, 0);
+div.barra-superior{
+    width: 1400px;
+    height: 87px;
     background-color: white;
-    border: none;
-    padding: 3px 5px;
-    border-radius: 7px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    top: 151px;
-    left: 468px;
+    border-color: black;
+    display: flex;
+    top: 0px;
     z-index: 10;
-    white-space: nowrap;
-    position: absolute;
-    text-decoration: none;
-    color: black;
 }
 
-.button:hover {
-    background-color: #9bc1a392;
+img.barra-superior{
+    width: 196px;
+    height: 44px;
+    text-align: center;
+    margin: 43px 43px;
 }
 
-#linea {
-    position: absolute;
-    top: 170px;
-    left: 390px;
-    width: 70px;
-    height: 1px;
+#logo{
+    width: 50%;
+    height: 80px;
 }
 
-#lupa {
-    white-space: nowrap;
-    position: absolute;
-    top: 156px;
-    left: 280px;
-    width: 500px;
-    height: 10px;
+div.botones{
+    width: 50%;
+    display: flex;
+    height: 87px; 
 }
 
-#carrito {
-    white-space: nowrap;
-    position: absolute;
-    top: 156px;
-    left: 280px;
-    width: 545px;
-    height: 10px;
+button.botones{
+    border-color: rgb(256, 250, 250, 0);
+    background-color: rgb(256, 256, 256, 0);
+    margin: 40px 0px;
+    padding: 0px 15px;
 }
 
-.texto {
-    white-space: nowrap;
-    position: absolute;
-    font-size: 15px;
-    top: 330px;
-    left: 155px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: Arial;
+button.botones:hover{
+    border-color: rgb(256, 250, 250, 0.2);
+    border-color: rgb(256, 250, 250, 0) rgb(256, 250, 250, 0) rgb(0, 0, 0, 1)rgb(256, 250, 250, 0) ;
+    border-radius: 10px;
+    background-color: rgb(256, 256, 256, 0);
 }
 
-.texto2 {
-    white-space: nowrap;
-    position: absolute;
-    font-size: 12px;
-    top: 352px;
-    left: 155px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: Arial;
+button.hiperbotones{
+    margin-top: 43px;
+    margin-left: 10px;
+    padding: 0px 15px;
+    border-color: rgb(256, 256, 256, 0);
+    background-color: rgb(256, 256, 256, 0);
 }
 
-#cuadrito {
-    position: absolute;
-    top: 344px;
-    left: 502px;
-    width: 50px;
-    height: 47px;
-
+button.hiperbotones:hover{
+    border-color: rgb(250, 250, 250, 0.2);
 }
 
-.comprar {
-    white-space: nowrap;
-    position: absolute;
-    font-size: 7px;
-    top: 365px;
-    left: 513px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: Arial;
-}
-
-#loguito2 {
-    position: absolute;
-    top: 355px;
-    left: calc(31% - 90px);
-    width: 45px;
-    height: 10px;
-
-}
-
-#Tarjeta {
-    position: absolute;
-    top: 170px;
-    width: 300px;
-    left: 190px;
-}
-
-#flechaup {
-    position: absolute;
-    top: 155px;
-    left: 578px;
-    width: 8px;
-}
-
-#flechadown {
-    position: absolute;
-    top: 380px;
-    left: 578px;
-    width: 8px;
-}
-
-#numeros {
-    position: absolute;
-    top: 230px;
-    left: 578px;
-    width: 8px;
-}
-
-#cantidad {
-    position: absolute;
-    font-size: 6px;
-    top: 190px;
-    left: 570px;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: Arial;
-}

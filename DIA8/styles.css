@@ -1,0 +1,103 @@
+#fondo{
+    background-color: black;
+}
+
+.barra-principal{
+    display: flex;
+    margin: 0px 15%;
+}
+
+#logo{
+    color: white;
+    margin-right: 3%;
+}
+
+a.hypervinculo{
+    color: white;
+    margin: 2% 1%;
+    padding: 0% 10%;
+    text-decoration: none;
+}
+
+
+div.hypervinculo{
+    margin-left: 55%;
+    margin-top: 2%;
+    display: flex;
+}
+
+#cafe1{
+    width: 20%;
+    height: 20%;
+}
+
+.text{
+    color: white;
+    font-size: 300%;
+}
+
+#portada{
+    text-align: center;
+    margin-top: 5%;
+    padding-top: 0px ;
+}
+
+button#shop-now{
+    background-color: rgb(200, 146, 74);
+    border-color: rgb(229, 170, 7, 0);
+    font-size: 50%;
+    width: 8%;
+    height: 1%;
+}
+
+button#shop-now:hover{
+    background-color: rgb(168, 115, 41);
+    border-color: rgb(229, 170, 7, 0);
+}
+
+p#shop-now{
+    font-size: 150%;
+} 
+
+.historia{
+    display: flex;
+    margin-top: 15%;
+}
+
+img#cafe2{
+    width: 35%;
+    height: 35%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+#ps{
+    color: white;
+    word-break: break-word;
+    line-break:loose;
+}
+
+#textohistoria{
+    width: 30%;
+}
+
+#linea{
+    border: 1px;
+    border-color: rgb(256, 250, 250, 0) rgb(256, 250, 250, 0) rgb(0, 0, 0, 1)rgb(256, 250, 250, 0);
+    width: 5%;
+}
+
+button#learn-more{
+        background-color: rgb(200, 146, 74);
+        border-color: rgb(229, 170, 7, 0);
+        font-size: 50%;
+        width: 20%;
+        height: 10%;
+}
+button#learn-more:hover{
+    background-color: rgb(168, 115, 41);
+    border-color: rgb(229, 170, 7, 0); 
+}
+p#learn-more{
+    font-size: 150%
+}
