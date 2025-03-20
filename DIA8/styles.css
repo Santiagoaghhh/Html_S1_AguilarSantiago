@@ -98,7 +98,7 @@ p#shop-now {
     font-size: 150%;
 }
 
-.historia {
+#historia {
     display: flex;
     margin-top: 15%;
 }
@@ -164,9 +164,9 @@ p#learn-more {
     height: 20%;
 }
 
-.productos {
+#productos {
     display: flex;
-    margin-left: 5%%;
+    margin-left: 5%;
 }
 
 .productos__descripcion--titulo {
@@ -238,7 +238,7 @@ hr {
     margin: 10px auto;
 }
 
-.contact{
+#contact{
     margin-top: 7%;
     display: flex;
     text-align: center  ;
