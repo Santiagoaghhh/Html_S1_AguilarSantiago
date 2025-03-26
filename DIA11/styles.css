@@ -1,0 +1,99 @@
+body{
+    background-color: rgb(1, 1, 31);
+    margin: auto 20%;
+}
+
+.FondoNegro__Grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 10px;
+    gap: 1.8%;
+    background-color: black;
+    width: 100%;
+    margin-top: 3%;
+}
+
+
+.FondoNegro__Grid--Rc1{
+    grid-row: 1/2;
+}
+
+.FondoNegro__Grid--Rc1 > iframe{
+    width: 100%;
+    aspect-ratio: 16/9;
+    border-radius: 15px;
+}
+
+.FondoNegro__Grid--Rc3{
+    grid-row: span 1;
+    border-radius: 15px;
+
+}
+.FondoNegro__Grid--Rc3 > iframe{
+    width: 100%;
+    aspect-ratio: 16/9;
+    border-radius: 15px;
+}
+
+.FondoNegro__Grid--Rc2{
+    grid-row: span 2;
+    border-radius: 15px;
+}
+
+.FondoNegro__Grid--Rc2 > img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.FondoNegro__Grid--Rc4{
+    border-radius: 15px;
+    grid-column: span 2;
+}
+
+.FondoNegro__Grid--Rc4 > iframe{
+    width: 100%;
+    border-radius: 20px;
+    aspect-ratio: 16/9;
+}
+
+.FondoNegro__Grid--Rc1 > iframe,
+.FondoNegro__Grid--Rc3 > iframe,
+.FondoNegro__Grid--Rc4 > iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.FondoNegro__Grid--Rc1 > img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.FondoNegro__Grid--Rc2 > img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.FondoNegro__Grid--Seccion2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto;
+    gap: 10px;
+}
+
+.Seccion2__Rc1 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.Seccion2__Rc2 {
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.Seccion2__Rc3 {
+    grid-column: span 1;
+    grid-row: 2;
+}
