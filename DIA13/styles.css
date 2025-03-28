@@ -1,0 +1,95 @@
+body{
+    height: 100%;
+}
+
+.animacion{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    position: absolute;
+}
+
+.animacion__Sol{
+    position: relative;
+    transform: translate(60%, 0%);
+    animation-name: desvanecerSol;
+    animation-duration: 7s;
+    animation-iteration-count: 1;
+}
+
+.animacion__Sol > img{
+    width: 50%;
+    height: 50%;
+}
+
+@keyframes desvanecerSol {
+    100%{
+        opacity: 0.5;
+    }
+}
+
+
+.animacion__Nube{
+    position: relative;
+    transform: translate(100%, -90%);
+    z-index: 10;
+    animation: aparecerNube 7s;
+    opacity: 1;
+}
+
+.animacion__Nube > img{
+    width: 50%;
+    height: 20%;
+}
+
+@keyframes aparecerNube {
+    0%{
+        transform: translate(100%, -90%);
+    }
+    30%{
+        transform: translate(60%, -90%);
+    }
+    80%{
+        transform: translate(20%, -90%);
+    }
+    85%{ 
+        transform: translate(1%, -90%);
+        animation-duration: 4.5s;
+    }
+    100%{
+        transform: translate(1%, -90%);
+    }
+}
+
+
+.animacion__Gotas{
+    position: relative;
+    z-index: 9;
+    transform: translate(10%, -900%);
+    animation-delay: 5s;
+    animation: gotasCaer 3s;
+}
+
+@keyframes gotasCaer {
+    0%{
+    }
+    100%{
+        transform: translate(10%, -850%);
+    }
+}
+
+
+
+.animacion__Gotas > img{
+    width: 20%;
+    height: 20%;
+}
+
+.animacion__Flor{
+    position: relative;
+}
+
+
+
+
+
